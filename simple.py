@@ -26,7 +26,7 @@ class DeepSeekChatbot:
 
 if __name__ == "__main__":
     # Replace 'your_api_url_here' and 'your_api_key_here' with your actual DeepSeek API URL and key.
-    api_url = 'https://api.deepseek.com/call'  # Example, replace with actual
+    api_url = 'https://api.deepseek.com/'  # Example, replace with actual
     api_key = 'sk-27a1ba1ece2c436e974559bca9878bfc'
     chatbot = DeepSeekChatbot(api_url, api_key)
 
