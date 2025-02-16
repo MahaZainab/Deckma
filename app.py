@@ -20,7 +20,7 @@ def chatbot(audio_file):
     # Generate a response using Llama 8B via Groq API
     chat_completion = client.chat.completions.create(
         messages=[{"role": "user", "content": user_input}],
-        model="llama3-8b-8192",
+        model="deepseek-r1-distill-qwen-32b",
     )
     response_text = chat_completion.choices[0].message.content
 
