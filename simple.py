@@ -1,7 +1,7 @@
 import requests
 
 # Replace with your DeepSeek R1 API endpoint and key
-DEEPSEEK_API_URL = "https://api.deepseek.com/v1"  # Example endpoint
+DEEPSEEK_API_URL = "https://api.deepseek.com/"  # Example endpoint
 API_KEY = "sk-27a1ba1ece2c436e974559bca9878bfc"
 
 def send_to_deepseek(user_input, context=None):
